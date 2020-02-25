@@ -61,7 +61,7 @@ public class RewiredMovement : MonoBehaviour
     public GameObject rain;
     public GameObject fireFly;
 
-    PlayerControls controls;
+  
 
     public Vector2 move;
     public float moveSpeed = 10f;
