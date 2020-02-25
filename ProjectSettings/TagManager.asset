@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - movingPlatform
+  - Ghost
+  - enemy
+  - nextLevel
+  - blaster
+  - bullet
+  - extraLife
+  - blaster2
+  - bullet2
+  - blaster3
+  - bubble
+  - wallR
+  - wallL
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Platform
+  - background
+  - powerups
+  - enemies
+  - bullets
+  - walls
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: foreground
+    uniqueID: 62078453
+    locked: 0
+  - name: behind
+    uniqueID: 2601558005
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,71 @@
+{
+    "name": "capsuleInput",
+    "maps": [
+        {
+            "name": "capsule",
+            "id": "98a116ad-dd0b-4208-8239-f6eabd28c4cb",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "f3423926-0fd4-43e0-9a32-dfb2e497a98c",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "moveUp",
+                    "type": "Button",
+                    "id": "61f7fb44-639a-42a2-8f14-88b218d5ac6d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "moveDown",
+                    "type": "Button",
+                    "id": "de95979f-c037-4090-9bcb-6605be5f96e3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0edfbb66-0002-475e-b58a-613ccc926492",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be27cb6c-3f92-4659-81b8-f8d2975090c6",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "moveUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bde7aabc-0785-4bc4-8c05-750682c9a5bc",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "moveDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
