@@ -68,6 +68,10 @@ public class lifeManager : MonoBehaviour
         { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4); }
         if (waitAfterGameOver < 0 && SceneManager.GetActiveScene().buildIndex == 5)
         { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5); }
+        if (waitAfterGameOver < 0 && SceneManager.GetActiveScene().buildIndex == 6)
+        { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6); }
+        if (waitAfterGameOver < 0 && SceneManager.GetActiveScene().buildIndex == 7)
+        { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7); }
 
 
 
