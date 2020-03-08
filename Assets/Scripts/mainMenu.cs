@@ -65,12 +65,18 @@ public class mainMenu : MonoBehaviour
         PlayerPrefs.SetInt("PlayerCurrentLives", playerLives);
         PlayerPrefs.SetInt("Player2CurrentLives", player2Lives);
     }
+    public void Level8()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 8);
+        PlayerPrefs.SetInt("PlayerCurrentLives", playerLives);
+        PlayerPrefs.SetInt("Player2CurrentLives", player2Lives);
+    }
 
 
 
     public void randomLevel()
     {
-        whichLevel = Random.Range(0, 8);
+        whichLevel = Random.Range(0, 9);
             {
             if (whichLevel == 0)
             {
@@ -116,7 +122,12 @@ public class mainMenu : MonoBehaviour
             if (whichLevel == 8)
             {
 
-                Level7();
+                Level8();
+            }
+            if (whichLevel == 9)
+            {
+
+                Level8();
             }
 
 
